@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Start */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .search{
+    padding: 0px 10px;
+    justify-content: space-between;
+}
+
+header .search input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid grey;
+}
+
+header .search div{
+    width: 60px;
+}
+
+header .search div img{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+/* Header End */
+/* ======================= */
+/* Hero Start */
+
+.hero{
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+
+.hero div,
+.hero div img{
+    width: 100%;
+}
+
+/* Hero End */
+/* ======================= */
+/* 3-img-product Start */
+
+.img-3-product{
+    width: 100%;
+    padding: 0px 10px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+.img-3-product  div{
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.img-3-product  div img{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+
+/* 3-img-product End */
+/* ======================== */
+/* DPI Start */
+
+.dpi{
+    padding: 0px 250px 50px;
+    /* display: none; */
+}
+
+.dpi header{
+    justify-content: space-between;
+    background-color: aliceblue;
+    margin: 0px 0px 50px 0px;
+}
+
+.dpi header h3:nth-child(2){
+    background-color: #212121;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.dpi .container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dpi .container div{
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.dpi .container div img{
+    width: 100%;
+}
+
+.dpi .container div h5{
+    font-weight: 900;
+    padding: 10px 5px;
+}
+
+.dpi .container div p{
+    color: grey;
+    padding: 10px 5px;
+}
+
+.dpi .container div p:last-child{
+    font-size: 0.7rem;
+    padding: 10px 5px;
+}
+
+/* DPI End */
+/* ================== */
+/* Feedback Start */
+
+.feedback{
+    /* border: 2px solid red; */
+}
+
+.feedback header{
+    padding: 20px 250px;
+    background-color: rgb(248, 241, 237);
+}
+
+.feedback header h3{
+    font-weight: 900;
+    color: #448bb4;
+}
+
+/* === */
+
+.feedback .container .feedback-img{
+    padding: 100px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 1fr;
+    background-image: url(../img/footer-img);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feedback .container{
+    padding: 50px 250px;
+}
+
+/* == */
+
+.feedback-icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 30px 0px 0px 0px ;
+}
+
+.feedback-icon .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+    margin: 20px;
+}
+
+.feedback-icon .wrapper img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+
+.feedback-icon .wrapper h3{
+    margin-bottom: 10px;
+}
+
+.feedback-icon .wrapper p{
+    color: #a8a6a6;
+}
+
+/* Feedback End */
+/* Footer Start */
+
+.footer{
+    /* border: 2px solid red; */
+    background-color: #0e5aa2;
+    padding: 20px 250px;
+    color: white;
+}
+
+.footer .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.footer .container h3{
+    padding: 0px 0px 20px 0px;
+}
+
+.footer .container div a,
+.footer .container div p{
+    display: block;
+    margin: 0px 0px 20px 0px;
+    color: white;
+}
+
+hr{
+    color: white;
+    margin-top: 20px;
+    height: 3px;
+    background-color: white;
+}
+
+.footer .last-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Footer End */

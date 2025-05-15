@@ -1,0 +1,161 @@
+@media (max-width: 1400px) {
+    /* DPI Start */
+
+    .dpi{
+        padding: 0px 100px 50px;
+    }
+
+    /* DPI End */
+    /* FEEDBACK Start */
+
+    .feedback header{
+        padding: 20px 100px;
+    }
+
+    .feedback .container{
+        padding: 50px 100px;
+    }
+
+    .feedback .container .feedback-img{
+        padding: 50px;
+    }
+
+    /* FEEDBACK End */
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 100px;
+    }
+
+    /* Footer End */
+}
+
+@media (max-width: 1200px) {
+    /* DPI Start */
+    .dpi .container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    /* DPI End */
+}
+
+@media (max-width: 900px) {
+    /* Hearder Start */
+
+    header{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    header .search input{
+        width: 100%;
+    }
+
+    header div:nth-child(2),
+    header div:nth-child(3){
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    /* Hearder End */
+    /* DPI Start */
+
+    .dpi{
+        padding: 0px 50px 50px;
+    }
+
+    .dpi header{
+        flex-direction: row;
+    }
+
+    .dpi .container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* DPI End */
+    /* FEEDBACK Start */
+
+    .feedback header{
+        padding: 20px 50px;
+    }
+
+    .feedback .container{
+        padding: 50px 50px;
+    }
+
+    .feedback .container .feedback-img{
+        padding: 50px;
+    }
+
+    /* FEEDBACK End */
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 50px;
+    }
+
+    .footer .container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Footer End */
+}
+
+@media (max-width: 700px) {
+    /* img-product-3 srtart */
+    .img-3-product{
+        grid-template-columns: 1fr;
+    }
+    /* img-product-3 srtart */
+    /* DPI Start */
+
+    .dpi{
+        padding: 0px 20px 20px;
+    }
+
+    .dpi .container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* DPI End */
+    /* FEEDBACK Start */
+
+    .feedback header{
+        padding: 20px 10px;
+    }
+
+    .feedback .container{
+        padding: 50px 10px;
+    }
+
+    .feedback .container .feedback-img{
+        padding: 20px;
+    }
+
+    /* FEEDBACK End */
+    /* Footer Start */
+
+    .footer{
+        padding: 20px;
+    }
+
+    /* Footer End */
+}
+
+@media (max-width: 500px) {
+    /* DPI Start */
+
+    .dpi{
+        padding: 0px 20px 50px;
+    }
+
+    .dpi .container{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* DPI End */
+    /* FEEDBACK Start */
+
+    .feedback .container .feedback-img{
+        grid-template-columns: 2fr;
+    }
+
+    /* FEEDBACK End */
+}
